@@ -1,6 +1,6 @@
 package gr.aueb.cf.ch16.marker;
 
-public class Attachment implements IArchivable{
+public class Attachment implements IAchievable {
     private String filename;
     private String extension;
 

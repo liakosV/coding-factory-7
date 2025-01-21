@@ -8,7 +8,7 @@ public class Main {
         archive(attachment);
     }
 
-    public static void archive(IArchivable iArchivable) {
+    public static void archive(IAchievable iArchivable) {
         if (iArchivable instanceof Attachment) {
             System.out.println(((Attachment) iArchivable).getFilename() + "." + ((Attachment) iArchivable).getExtension() + " is archivable.");
         } else {
