@@ -16,7 +16,7 @@ public class CapturingRegEx {
                 System.out.print(matcher.group(i) + " ");
             }
             System.out.println();
-            System.out.println();
+
         }
     }
 }
