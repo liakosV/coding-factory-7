@@ -15,7 +15,7 @@ public class MyQueue<T> {
         return myQueue;
     }
 
-    public void endQueue(T t) {
+    public void enQueue(T t) {
         myQueue.addLast(t);
     }
 
